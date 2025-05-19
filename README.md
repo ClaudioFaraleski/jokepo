@@ -2,6 +2,10 @@
 
 Um jogo clássico de Pedra, Papel e Tesoura desenvolvido com HTML, CSS e JavaScript.
 
+## 🌐 Site do Projeto
+
+Experimente o jogo: [Jokenpô Game](https://jokepojogo.netlify.app/)
+
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5
