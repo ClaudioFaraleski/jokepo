@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jokenpô</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="background">
+    <span></span><span></span><span></span>
+    <span></span><span></span><span></span>
+  </div>
+  
+  <div class="container">
+    <h1 class="title">JOKENPÔ</h1>
+
+    <div class="scoreboard">
+      <span class="label user-label">user</span>
+      <span class="score" id="user-score">0</span>
+      <span class="colon">:</span>
+      <span class="score" id="comp-score">0</span>
+      <span class="label comp-label">comp</span>
+    </div>
+
+    <div class="game-over" id="game-over">
+      Game Over
+      <button id="play-again" class="play-button">Jogar Novamente</button>
+    </div>
+
+    <div id="start-screen">
+      <button id="start-game" class="play-button">Jogar</button>
+    </div>
+
+    <div class="result-box">
+      <div>
+        <p>USER</p>
+        <span id="user-choice">✋</span>
+      </div>
+      <div>
+        <p>COMP</p>
+        <span id="comp-choice">✌️</span>
+      </div>
+    </div>
+
+    <div class="choices">
+      <button onclick="play('pedra')">✊</button>
+      <button onclick="play('papel')">✋</button>
+      <button onclick="play('tesoura')">✌️</button>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
